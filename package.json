@@ -1,0 +1,36 @@
+{
+  "name": "ngx-markdown-docs",
+  "version": "1.0.0",
+  "description": "Angular Component Markdown Documentation Generator",
+  "main": "lib/cli.js",
+  "bin": {
+    "ngd": "./bin/ngd"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amcdnl@github.com/amcdnl/ngx-markdown-docs.git"
+  },
+  "keywords": [
+    "angular",
+    "components",
+    "angular2",
+    "documentation",
+    "typescript"
+  ],
+  "author": "Austin McDaniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcdnl/ngx-markdown-docs/issues"
+  },
+  "homepage": "https://github.com/amcdnl/ngx-markdown-docs#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "decamelize": "^1.2.0",
+    "glob": "^7.1.2",
+    "handlebars": "^4.0.11",
+    "typescript": "^2.6.1"
+  }
+}
